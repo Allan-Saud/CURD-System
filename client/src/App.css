@@ -1,0 +1,184 @@
+.add_btn{
+  text-align: right;
+}
+
+.container{
+  overflow: auto;
+}
+
+/* Custom CSS for Navbar */
+.navbar {
+  background-color: #3498db; /* Navbar background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px; /* Padding */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #007bff;
+}
+
+/*Custom CSS for home,js*/
+
+/* Styling for the table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+.table-dark th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Styling for buttons */
+.btn {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+/* Background color for the Home component */
+.container {
+  background-color: lightslategray; /* Light gray background color */
+  padding: 20px; /* Add padding for spacing */
+}
+
+
+/* Style for the details.js component */
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-image {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.details {
+  text-align: left;
+}
+
+.details h5 {
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: white; /* Set the color of the Welcome text to white */
+}
+
+/* style for edit.js*/
+
+/* Style for the OK button */
+.ok-button {
+  background-color: #28a745; /* Green background color */
+  color: white; /* White text color */
+  border: none;
+  padding: 8px 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.ok-button:hover {
+  background-color: #218838; /* Darker green color on hover */
+}
+
+
+.container {
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
